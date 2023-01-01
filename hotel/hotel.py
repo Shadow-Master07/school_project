@@ -226,5 +226,7 @@ def runagain():
             print(os.system('clear'))
         Menuset()
         runagn = input("\n want to run again y/n: ")
+    else:
+        exit("bye")
 
 Menuset()
