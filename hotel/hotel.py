@@ -68,10 +68,6 @@ def roomrent():
 
 
 def restaurentmenuview():
-    # print("Do you want to see menu available : Enter 1 for yes :")
-    # ch = int(input("Enter your choice: "))
-
-    # if ch == 1:
     query  = "select * from restaurant"
     mycursor.execute(query)
     rows = mycursor.fetchall()
