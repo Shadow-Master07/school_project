@@ -92,61 +92,61 @@ def orderitem():
         print("You have ordered tea")
         a = int(input("Enter quantity "))
         amount = 10*a
-        print("Your amount for tea is :",s,"\n")
+        print("Your amount for tea is :",amount,"\n")
 
     elif d == 2:
         print("You have ordered coffee")
         a = int(input("Enter quantity "))
         amount = 10*a
-        print("Your amount for coffee is :",s,"\n")
+        print("Your amount for coffee is :",amount,"\n")
 
     elif d == 3:
         print("You have ordered colddrink")
         a = int(input("Enter quantity "))
         amount = 20*a
-        print("Your amount for colddrink is :",s,"\n")
+        print("Your amount for colddrink is :",amount,"\n")
 
     elif d == 4:
         print("You have ordered samosa")
         a = int(input("Enter quantity "))
         amount = 10*a
-        print("Your amount fopr samosa is :",s,"\n")
+        print("Your amount fopr samosa is :",amount,"\n")
 
     elif d == 5:
         print("You have ordered sandwich")
         a = int(input("Enter quantity "))
         amount = 50*a
-        print("Your amount fopr sandwich is :",s,"\n")
+        print("Your amount fopr sandwich is :",amount,"\n")
 
     elif d == 6:
         print("You have ordered dhokla")
         a = int(input("Enter quantity "))
         amount = 30*a
-        print("Your amount for dhokla is :",s,"\n")
+        print("Your amount for dhokla is :",amount,"\n")
 
     elif d == 7:
         print("You have ordered kachori")
         a = int(input("Enter quantity "))
         amount = 10*a
-        print("Your amount for kachori is :",s,"\n")
+        print("Your amount for kachori is :",amount,"\n")
 
     elif d == 8:
         print("You have ordered milk")
         a = int(input("Enter quantity "))
         amount = 20*a
-        print("Your amount for kachori is :",s,"\n")
+        print("Your amount for kachori is :",amount,"\n")
 
     elif d == 9:
         print("You have ordered noodles")
         a = int(input("Enter quantity "))
         amount = 50*a
-        print("Your amount for noodles is :",s,"\n")
+        print("Your amount for noodles is :",amount,"\n")
 
     elif d == 10:
         print("You have ordered pasta")
         a = int(input("Enter quantity "))
         amount = 50*a
-        print("Your amount for pasta is :",s,"\n")
+        print("Your amount for pasta is :",amount,"\n")
 
     else:
         print("Please enter your choice from the menu")
