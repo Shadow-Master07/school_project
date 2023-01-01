@@ -67,7 +67,7 @@ def roomrent():
     print("Your room rent is  = ",s,"\n")
 
 
-def restaurentmenuview():
+def restaurantmenuview():
     query  = "select * from restaurant"
     mycursor.execute(query)
     rows = mycursor.fetchall()
@@ -77,7 +77,7 @@ def restaurentmenuview():
 
 
 def orderitem():
-    query  = "select * from restaurent"
+    query  = "select * from restaurant"
     mycursor.execute(query)
     rows = mycursor.fetchall()
     
@@ -175,8 +175,8 @@ def Menuset():
     print("Enter 1: To enter customer data")
     print("Enter 2 : To view roomtype")
     print("Enter 3 : For calculating room bill")
-    print("Enter 4 : For viewing restaurent menu")
-    print("Enter 5 : For restaurent bill")
+    print("Enter 4 : For viewing restaurant menu")
+    print("Enter 5 : For restaurant bill")
     print("Enter 6 : For laundary bill")
     print("Enter 7 : For complete bill")
     print("Enter 8 : For exit:")
@@ -196,7 +196,7 @@ def Menuset():
         room_rent_cost  =  roomrent()
 
     elif userinput == 4:
-        restaurent_menu  =  restaurentmenuview()
+        restaurant_menu  =  restaurantmenuview()
 
     elif userinput == 5:
         items_ordered  =  orderitem()
